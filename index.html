@@ -1,0 +1,40 @@
+<!Doctype html!>
+    <head>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    </head>
+    <body>
+       
+        <div id='project' class='project '>
+            <span id='switch' class="material-symbols-outlined switch">
+                toggle_on
+                </span>
+               
+            <!-- <button id='switch' class="'switch">Switch Theme </button> -->
+                <div id='generate' class='generate '>
+                        <h1>Generate a<span> random password<span></h1>
+                        <p>Never use an insecure password again</p>
+                    <div class="btns">
+                        <button onclick=generatePassword(characters)>With Character </button>  
+                        <button onclick=generatePassword(letter)>With out Character </button>
+                    </div>
+                </div>
+                <div class='pass'>
+                    <div id='1st' class='password'> </div> 
+                    <button class='copy' id='copy1' onclick="copyToClipboard('1st','copy1')">COPY</button>
+                    
+                </div>
+                <div class='pass'>
+                    <div id='2nd' class='password'> </div> 
+                    <button class='copy' id='copy2' onclick="copyToClipboard('2nd','copy2')">COPY</button>
+                
+                </div>
+        </div>
+     
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+body ,p, h1 {
+    margin: 0;
+ font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+
+/***********************/
+
+.project{
+    box-shadow: 0 0 5px  #1F2937;;
+    padding: 4em 4em;
+   display: flex;
+   flex-direction: column;
+   width: 40rem;
+   margin: 8rem auto; 
+   border-radius: 1em;
+}
+/*********GENERATE*************/
+
+.generate{
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+    
+
+}
+h1{
+    font-weight: 900;
+}
+span{
+    display: block;
+    color: #4ADF86;
+}
+p{
+    margin: 1em 0;
+}
+button{
+    margin-top: 1em;
+    width: 15em;
+    align-self: left;
+    background-color: #10B981;
+    color: white;
+    height: 2.5em;
+    border-radius: 0.5em;
+      border: none; 
+}
+
+
+.btns{
+    width: 100%;
+    display: flex;
+
+    justify-content: space-around;
+}
+
+#switch{
+    width: 150px;
+    align-self: right;
+    
+}
+
+/*******************DARK THEME****************/
+.dark{
+     background-color: #1F2937;
+     color: whitesmoke;
+}
+.switch{
+    align-self: right;
+}
+/******BOTTOM*********/
+.pass{
+   
+   width: 60%;
+    margin-top: 3em;
+    padding: 1em ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5em;
+    /* border-top: 2px solid lightslategray ; */
+height: 2em;
+   box-shadow: 0 0 5px #10B981
+}
+.copy{
+    width: 100px;
+    margin: 0em;
+   
+}
+.password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     color: white;
+    margin-right: .5em;
+    width: 15rem;
+    height: 2.5em;
+    background-color: #273549;
+    border-radius: .5em;
+}
